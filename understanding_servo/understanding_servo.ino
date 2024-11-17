@@ -16,9 +16,9 @@ void setup() {
   // Initialize serial communication for debugging
   Serial.begin(9600);
 
-  // Set A0 as an input
-  pinMode(A0, INPUT); // This is the potentiometer
-  // Set led as output
+  // // Set A0 as an input
+  // pinMode(A0, INPUT); // This is the potentiometer
+  // // Set led as output
   // pinMode(led, OUTPUT); // This was for testing potentiometer
 
   // Attach the Servo object to pin connected to servo
